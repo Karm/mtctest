@@ -103,6 +103,9 @@
 								<option id="gnu.c.link.option.paths.1418892272" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/local/apr/lib"/>
 								</option>
+								<option id="gnu.c.link.option.libs.1053694419" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="apr-1"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1687607478" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -143,6 +146,9 @@
 			<resource resourceType="PROJECT" workspacePath="/mtctest"/>
 		</configuration>
 		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/mtctest"/>
+		</configuration>
+		<configuration configurationName="HP-UX">
 			<resource resourceType="PROJECT" workspacePath="/mtctest"/>
 		</configuration>
 	</storageModule>

@@ -12,7 +12,6 @@
 #include "apr.h"
 #include "apr_network_io.h"
 #include "apr_strings.h"
-#include "ap_mpm.h"
 
 /**
  * Multicast Time to Live (ttl) for the advertise transmission.

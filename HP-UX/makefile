@@ -29,7 +29,7 @@ all: mtctest
 mtctest: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L/usr/include/apr-1 -L/usr/include/aprutil-1 -o "mtctest" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L/usr/local/apr/lib -o "mtctest" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
